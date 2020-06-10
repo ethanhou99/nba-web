@@ -34,7 +34,7 @@ class DataViewContainer extends Component {
                <ShotChart playerId={this.props.playerId}
                           minCount={this.state.minCount}
                           chartType={this.state.chartType}
-                        displayTooltip={this.state.displayTooltip}
+                          displayTooltip={this.state.displayTooltip}
                />
 
                <div className="filters">
