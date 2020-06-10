@@ -1,4 +1,4 @@
-# NBA Player data Visualization
+# NBA Player Data Visualization
 This project is a data visualization project. All the datas are from [stats.nba.com](https://stats.nba.com/). Users can check the player shotchart and switch the mode between `Hexibin` and `Scatter`, check the hit rate with different frequency. 
 
 ## Key Words
