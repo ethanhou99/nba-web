@@ -1,3 +1,39 @@
+# NBA Player data Visualization
+This project is a data visualization project. All the datas are from [stats.nba.com](https://stats.nba.com/). Users can check the player shotchart and switch the mode between `Hexibin` and `Scatter`, check the hit rate with different frequency. 
+
+## Key Words
+- React
+- d3
+- Ant design
+
+## Component Dependency
+```bash
+├── App
+    ├── TopNavBar
+    └── Main
+        ├── Player
+        │   ├—— DataViewContainer
+        │   │   ├—— ShotChart
+        │   │   └── Filter
+        │   │       ├—— CounterSlider
+        │   │       ├—— TypeFilter
+        │   │       └── ToolTip
+        │   └── Profile
+        └── SearchBar
+```
+
+## Demo
+- Search players with auto-complete feature
+<img src="https://github.com/ethanhou99/nba-web/blob/master/src/assets/image/demo1.png" />
+
+- Check player data and adjust the shot frequency
+<img src="https://github.com/ethanhou99/nba-web/blob/master/src/assets/image/demo2.png" />
+<img src="https://github.com/ethanhou99/nba-web/blob/master/src/assets/image/demo3.png" />
+
+- Check the shotchart under scatter mode
+<img src="https://github.com/ethanhou99/nba-web/blob/master/src/assets/image/demo4.png" />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
